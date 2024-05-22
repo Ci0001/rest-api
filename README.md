@@ -46,6 +46,10 @@ One can serve it locally via terminal or on any server daemon. I've served it lo
 ```bash
 php -S localhost:4300
 ```
+Visit the following url to test it
+```bash
+http://localhost:8181/index.php/user/list?limit=20
+```
 
 
 
