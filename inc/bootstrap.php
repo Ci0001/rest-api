@@ -1,6 +1,10 @@
 <?php
 define("PROJECT_ROOT_PATH",__DIR__. "/../");
 
+ini_set('display_errors', '0');
+ini_set('display_startup_errors', '0');
+error_reporting(E_ALL);
+
 //include main configuration file
 require_once PROJECT_ROOT_PATH . "/inc/config.php";
 
